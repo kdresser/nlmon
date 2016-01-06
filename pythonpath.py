@@ -7,5 +7,7 @@ def pfx2pp(p):
   sys.path.insert(1, p)
 
 def set():
-  pfx2pp('N:\\P\\G\\plib2')
-  ###pfx2pp(os.path.abspath('.\\LIB'))
+  if sys.platform.startswith('lin'):
+    pfx2pp('/home/kelly/plib2')
+  if sys.platform.startswith('win'):
+    pfx2pp('N:\\P\\G\\plib2')
