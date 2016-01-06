@@ -18,6 +18,8 @@ test*
 16*/
 save/
 hide*/
+pythonpath.py
+.gitignore
 /__pycache__
 !freeze.txt
 !notes.txt
